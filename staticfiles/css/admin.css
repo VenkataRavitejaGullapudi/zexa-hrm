@@ -1,0 +1,66 @@
+body{
+font-family:"Mulish", sans-serif;
+}
+#header{
+    background:white;
+    color:#1d65ff;
+    padding:2%;
+    padding-left:4%;
+    font-family:"Mulish", sans-serif;
+    box-shadow: 0 2px 25px 0 rgba(54,66,117,0.12);
+
+}
+#header a:link, #header a:visited {
+    color:#002880;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background:#1d65ff;
+    border-radius:3px;
+
+}
+
+.toggle-nav-sidebar{
+     border-radius:3px;
+}
+
+div.breadcrumbs {
+    background:#008ae6;
+    padding-top:12px;
+    padding-bottom:12px;
+    box-shadow: 2px 2px 25px 0 rgba(54,66,117,0.12);
+    margin-bottom:4px;
+}
+div.breadcrumbs a:focus, div.breadcrumbs a:hover {
+    color:#000099;
+}
+.button, input[type="submit"], input[type="button"], .submit-row input, a.button{
+    background:#1d65ff;
+    color:#fff;
+}
+input[type=submit].default, input[type=submit].default.visited, .submit-row input.default{
+    background: #0049e6;
+}
+.button.default:active, input[type=submit].default:active, .button.default:focus, input[type=submit].default:focus, .button.default:hover, input[type=submit].default:hover {
+    background: #0049e6;
+}
+
+a:link, a:visited {
+    color:#1d65ff;
+}
+
+.object-tools a:link, .object-tools a:visited
+{
+    background-color:black;
+}
+
+thead th a:link, thead th a:visited{
+    color:black;
+}
+#changelist-filter a{
+    color:black;
+}
+
+.paginator a:link, .paginator a:visited{
+    background:#1d65ff;
+}
