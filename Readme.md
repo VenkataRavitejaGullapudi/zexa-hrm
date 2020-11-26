@@ -34,9 +34,15 @@ or else simply download the git repository and extract it to *HRMZexa Folder* th
 
 ------------If cloning the repositry `git clone https://github.com/ravi777-developer/zexa-hrm.git` -------------------
 9. Navigate into that folder(project folder) if not navigated
+
     `cd zexa-hrm` or `cd zexa-hrm-master`
+    
 10. Install requirements for the project(already included for deployment)
+
     `pip install -r requirements.txt`
+    
+    `pip install django` //incase version mismatch run django cmd seperately
+    
 11. Run the server
     `python manage.py runserver` or `python manage.py runserver "localhost" `
 
