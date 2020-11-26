@@ -38,8 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'main_app',
-    'HRMAdmin'
+    'main_app'
 ]
 
 MIDDLEWARE = [
