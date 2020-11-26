@@ -1,0 +1,14 @@
+
+{% extends "admin/base.html" %}
+{% load static %}
+{% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('HRM System admin') }}{% endblock %}
+
+    {% block branding %}
+    <h1 id="site-name" style="">
+       <a href="{% url 'admin:index' %}" style="color:#1d65ff; font-weight:bold;"><!-- <img src="{% static 'images/logo.jpg' %}" alt="Zexa HRM" height="30" width="150"/>-->Zexal HRM</a>
+    </h1>
+    {% endblock %}
+{% block extrastyle %}
+<link rel="stylesheet" href="{% static 'css/admin.css' %}">
+{% endblock extrastyle %}
+{% block nav-global %}{% endblock %}

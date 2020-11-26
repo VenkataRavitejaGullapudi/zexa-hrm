@@ -1,0 +1,1 @@
+[{"model": "main_app.payroll", "pk": 1, "fields": {"employee": 1, "payment_amount": 30000.0, "timestamp_of_payment": "2020-11-25T15:22:00", "recorded_by": 1}}]

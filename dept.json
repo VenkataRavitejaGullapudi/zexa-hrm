@@ -1,0 +1,1 @@
+[{"model": "main_app.department", "pk": 2, "fields": {"name": "Development", "total_employees": 13}}, {"model": "main_app.department", "pk": 3, "fields": {"name": "Services", "total_employees": 7}}]

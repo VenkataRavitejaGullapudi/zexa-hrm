@@ -1,0 +1,1 @@
+[{"model": "main_app.department_manager", "pk": 1, "fields": {"department": 2, "manager": 2, "assigned_on": "2020-11-25T16:47:30.722"}}, {"model": "main_app.department_manager", "pk": 2, "fields": {"department": 3, "manager": 1, "assigned_on": "2020-11-25T16:48:38.510"}}]
