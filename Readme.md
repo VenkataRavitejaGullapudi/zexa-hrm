@@ -33,6 +33,7 @@ Next you will be navigated to the Admin Home Page
 or else simply download the git repository and extract it to *HRMZexa Folder* that you have created and also added venv
 
 ------------If cloning the repositry `git clone https://github.com/ravi777-developer/zexa-hrm.git` -------------------
+
 9. Navigate into that folder(project folder) if not navigated
 
     `cd zexa-hrm` or `cd zexa-hrm-master`
