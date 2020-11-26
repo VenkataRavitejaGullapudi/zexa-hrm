@@ -4,8 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Zexa HCM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body background="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#" style="padding-left:10%; padding-bottom:13px; padding-top:13px; padding-right:10%;"><h2><b>Zexa HRM</b></h2></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+              <a class="nav-link text-white btn btn-success rounded" href="/admin/" style="margin-left:auto; margin-right:auto; box-shadow: 0 2px 25px 0 rgba(54,66,117,0.12);"> <u><b>Enter Admin Page</b> </u><span class="sr-only">(current)</span></a>
+          </li>
+
+        </ul>
+        <a class="navbar btn btn-primary rounded" href="/admin">
+          Manage Everything here
+        </a>
+      </div>
+    </nav>
     <img src="{% static 'images/poster.png' %}" width="100%" >
 </body>
 </html>

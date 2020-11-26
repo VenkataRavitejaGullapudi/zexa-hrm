@@ -2,7 +2,7 @@ from django.contrib import admin
 from . import models
 # Register your models here.
 
-admin.site.site_url = "/site/"
+# admin.site.site_url = "/site/"
 class AdminEmployee(admin.ModelAdmin):
     def save_model(self, request, obj, form, change):
         if not change:
