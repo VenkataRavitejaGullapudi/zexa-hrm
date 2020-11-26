@@ -25,7 +25,7 @@ SECRET_KEY = 's+ug_jth@4d-ws3s%8si)30bvx!472fzh4jurw4bp_f3-i!(l*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','zexa-hrm.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','zexal-hrm.herokuapp.com']
 
 
 # Application definition
