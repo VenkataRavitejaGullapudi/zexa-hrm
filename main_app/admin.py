@@ -3,6 +3,7 @@ from . import models
 # Register your models here.
 
 # admin.site.site_url = "/site/"
+admin.site.site_title = "Zexa HRM Administration"
 class AdminEmployee(admin.ModelAdmin):
     def save_model(self, request, obj, form, change):
         if not change:
