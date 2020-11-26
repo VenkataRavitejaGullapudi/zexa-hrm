@@ -27,7 +27,9 @@
 // Only for testing purpose
 // If you want you can create superuser directly from command prompt using `python manage.py createsuperuser`
 *Credentials for the admin portal*
+
 Username: Raviteja
+
 Password: ravi@skillsme
 
 * You can also check the hosted application at https://zexal-hrm.herokuapp.com/ *
